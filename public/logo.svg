@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 72" width="320" height="72" fill="none">
+  <!-- Dark background container with sleek rounded corners -->
+  <rect width="320" height="72" rx="14" fill="#111111"/>
+  
+  <!-- Subtle brand border -->
+  <rect x="0.5" y="0.5" width="319" height="71" rx="13.5" stroke="#222222" stroke-width="1"/>
+  
+  <!-- Brand Icon: Dialogue bubble with cyan feedback bars -->
+  <g transform="translate(18, 16)">
+    <rect width="40" height="40" rx="10" fill="#1A1A1A" stroke="#20C4EE" stroke-width="1.5"/>
+    <!-- Voice / Feedback signal bars in cyan -->
+    <rect x="10" y="21" width="3" height="8" rx="1.5" fill="#20C4EE"/>
+    <rect x="15.5" y="15" width="3" height="18" rx="1.5" fill="#20C4EE"/>
+    <rect x="21" y="11" width="3" height="24" rx="1.5" fill="#20C4EE"/>
+    <rect x="26.5" y="17" width="3" height="14" rx="1.5" fill="#20C4EE"/>
+    <!-- Signal pulse dot -->
+    <circle cx="28" cy="11" r="2" fill="#EAF9FE"/>
+  </g>
+
+  <!-- Brand Typography -->
+  <g transform="translate(72, 44)">
+    <text font-family="'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-weight="700" font-size="21" letter-spacing="0.5">
+      <tspan fill="#20C4EE">FEEDBACK</tspan>
+      <tspan fill="#FFFFFF" dx="6">TRACKER</tspan>
+    </text>
+  </g>
+
+  <!-- Tagline pill or accent dot -->
+  <circle cx="298" cy="36" r="3.5" fill="#20C4EE"/>
+</svg>
